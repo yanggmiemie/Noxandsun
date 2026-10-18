@@ -1,0 +1,738 @@
+{
+ "jars": [
+  {
+   "id": "tall",
+   "file": "resources/jar/tall.png",
+   "w": 283,
+   "h": 640
+  },
+  {
+   "id": "milk_bottle",
+   "file": "resources/jar/milk_bottle.png",
+   "w": 412,
+   "h": 640
+  },
+  {
+   "id": "glass",
+   "file": "resources/jar/glass.png",
+   "w": 476,
+   "h": 640
+  },
+  {
+   "id": "mason",
+   "file": "resources/jar/mason.png",
+   "w": 539,
+   "h": 640
+  },
+  {
+   "id": "belly",
+   "file": "resources/jar/belly.png",
+   "w": 516,
+   "h": 640
+  },
+  {
+   "id": "flower_jar",
+   "file": "resources/jar/flower_jar.png",
+   "w": 574,
+   "h": 640
+  }
+ ],
+ "extra": [
+  "resources/extra/lollipop_bunch.png"
+ ],
+ "candies": [
+  {
+   "index": 1,
+   "shape": "lollipop",
+   "color": "orange",
+   "file": "resources/candy/lollipop_01.png",
+   "w": 256,
+   "h": 139,
+   "src": "attachment_4123775277374541460__01.png"
+  },
+  {
+   "index": 2,
+   "shape": "wrapper",
+   "color": "cream",
+   "file": "resources/candy/wrapper_02.png",
+   "w": 256,
+   "h": 161,
+   "src": "attachment_4123775277374541460__02.png"
+  },
+  {
+   "index": 3,
+   "shape": "block",
+   "color": "gold",
+   "file": "resources/candy/block_03.png",
+   "w": 256,
+   "h": 193,
+   "src": "attachment_4123775277374541460__03.png"
+  },
+  {
+   "index": 4,
+   "shape": "bean",
+   "color": "yellow",
+   "file": "resources/candy/bean_04.png",
+   "w": 256,
+   "h": 183,
+   "src": "attachment_4123775277374541460__04.png"
+  },
+  {
+   "index": 5,
+   "shape": "block",
+   "color": "deep_red",
+   "file": "resources/candy/block_05.png",
+   "w": 238,
+   "h": 256,
+   "src": "attachment_4123775277374541460__05.png"
+  },
+  {
+   "index": 6,
+   "shape": "block",
+   "color": "gold",
+   "file": "resources/candy/block_06.png",
+   "w": 256,
+   "h": 197,
+   "src": "attachment_4123775277374541460__06.png"
+  },
+  {
+   "index": 7,
+   "shape": "block",
+   "color": "red",
+   "file": "resources/candy/block_07.png",
+   "w": 256,
+   "h": 182,
+   "src": "attachment_4123775277374541460__07.png"
+  },
+  {
+   "index": 8,
+   "shape": "round",
+   "color": "yellow",
+   "file": "resources/candy/round_08.png",
+   "w": 256,
+   "h": 248,
+   "src": "attachment_4123775277374541460__08.png"
+  },
+  {
+   "index": 9,
+   "shape": "round",
+   "color": "pink",
+   "file": "resources/candy/round_09.png",
+   "w": 256,
+   "h": 248,
+   "src": "attachment_4123775277374541460__09.png"
+  },
+  {
+   "index": 10,
+   "shape": "block",
+   "color": "green",
+   "file": "resources/candy/block_10.png",
+   "w": 256,
+   "h": 200,
+   "src": "attachment_4154533510488606999__01.png"
+  },
+  {
+   "index": 11,
+   "shape": "heart",
+   "color": "pink",
+   "file": "resources/candy/heart_11.png",
+   "w": 256,
+   "h": 161,
+   "src": "attachment_4154533510488606999__02.png"
+  },
+  {
+   "index": 12,
+   "shape": "cane",
+   "color": "red",
+   "file": "resources/candy/cane_12.png",
+   "w": 127,
+   "h": 256,
+   "src": "attachment_4154533510488606999__03.png"
+  },
+  {
+   "index": 13,
+   "shape": "flower",
+   "color": "mint",
+   "file": "resources/candy/flower_13.png",
+   "w": 199,
+   "h": 256,
+   "src": "attachment_4154533510488606999__04.png"
+  },
+  {
+   "index": 14,
+   "shape": "star",
+   "color": "cream",
+   "file": "resources/candy/star_14.png",
+   "w": 254,
+   "h": 256,
+   "src": "attachment_4154533510488606999__05.png"
+  },
+  {
+   "index": 15,
+   "shape": "round",
+   "color": "rainbow",
+   "file": "resources/candy/round_15.png",
+   "w": 215,
+   "h": 256,
+   "src": "attachment_4154533510488606999__06.png"
+  },
+  {
+   "index": 16,
+   "shape": "heart",
+   "color": "gold",
+   "file": "resources/candy/heart_16.png",
+   "w": 256,
+   "h": 247,
+   "src": "attachment_4154533510488606999__07.png"
+  },
+  {
+   "index": 17,
+   "shape": "wrapper",
+   "color": "cream",
+   "file": "resources/candy/wrapper_17.png",
+   "w": 211,
+   "h": 256,
+   "src": "attachment_4154533510488606999__08.png"
+  },
+  {
+   "index": 18,
+   "shape": "round",
+   "color": "pink_green",
+   "file": "resources/candy/round_18.png",
+   "w": 240,
+   "h": 241,
+   "src": "attachment_4154533510488606999__09.png"
+  },
+  {
+   "index": 19,
+   "shape": "drop",
+   "color": "blue",
+   "file": "resources/candy/drop_19.png",
+   "w": 256,
+   "h": 138,
+   "src": "attachment_4514124148959019343__01.png"
+  },
+  {
+   "index": 20,
+   "shape": "flower",
+   "color": "purple",
+   "file": "resources/candy/flower_20.png",
+   "w": 241,
+   "h": 256,
+   "src": "attachment_4514124148959019343__02.png"
+  },
+  {
+   "index": 21,
+   "shape": "flower",
+   "color": "pink",
+   "file": "resources/candy/flower_21.png",
+   "w": 256,
+   "h": 186,
+   "src": "attachment_4514124148959019343__03.png"
+  },
+  {
+   "index": 22,
+   "shape": "wrapper",
+   "color": "mint",
+   "file": "resources/candy/wrapper_22.png",
+   "w": 256,
+   "h": 159,
+   "src": "attachment_4514124148959019343__04.png"
+  },
+  {
+   "index": 23,
+   "shape": "block",
+   "color": "mint",
+   "file": "resources/candy/block_23.png",
+   "w": 253,
+   "h": 256,
+   "src": "attachment_4514124148959019343__05.png"
+  },
+  {
+   "index": 24,
+   "shape": "drop",
+   "color": "yellow",
+   "file": "resources/candy/drop_24.png",
+   "w": 256,
+   "h": 183,
+   "src": "attachment_4514124148959019343__06.png"
+  },
+  {
+   "index": 25,
+   "shape": "round",
+   "color": "yellow",
+   "file": "resources/candy/round_25.png",
+   "w": 256,
+   "h": 237,
+   "src": "attachment_4514124148959019343__07.png"
+  },
+  {
+   "index": 26,
+   "shape": "block",
+   "color": "lilac",
+   "file": "resources/candy/block_26.png",
+   "w": 240,
+   "h": 256,
+   "src": "attachment_4514124148959019343__08.png"
+  },
+  {
+   "index": 27,
+   "shape": "block",
+   "color": "pink",
+   "file": "resources/candy/block_27.png",
+   "w": 256,
+   "h": 213,
+   "src": "attachment_6177452929294713454__01.png"
+  },
+  {
+   "index": 28,
+   "shape": "block",
+   "color": "lilac",
+   "file": "resources/candy/block_28.png",
+   "w": 256,
+   "h": 233,
+   "src": "attachment_6177452929294713454__02.png"
+  },
+  {
+   "index": 29,
+   "shape": "block",
+   "color": "mint",
+   "file": "resources/candy/block_29.png",
+   "w": 242,
+   "h": 256,
+   "src": "attachment_6177452929294713454__03.png"
+  },
+  {
+   "index": 30,
+   "shape": "bean",
+   "color": "orange",
+   "file": "resources/candy/bean_30.png",
+   "w": 256,
+   "h": 171,
+   "src": "attachment_6177452929294713454__04.png"
+  },
+  {
+   "index": 31,
+   "shape": "bean",
+   "color": "lilac",
+   "file": "resources/candy/bean_31.png",
+   "w": 256,
+   "h": 165,
+   "src": "attachment_6177452929294713454__05.png"
+  },
+  {
+   "index": 32,
+   "shape": "bean",
+   "color": "pink",
+   "file": "resources/candy/bean_32.png",
+   "w": 256,
+   "h": 182,
+   "src": "attachment_6177452929294713454__06.png"
+  },
+  {
+   "index": 33,
+   "shape": "cane",
+   "color": "teal",
+   "file": "resources/candy/cane_33.png",
+   "w": 256,
+   "h": 224,
+   "src": "attachment_6177452929294713454__07.png"
+  },
+  {
+   "index": 34,
+   "shape": "lollipop",
+   "color": "rainbow",
+   "file": "resources/candy/lollipop_34.png",
+   "w": 236,
+   "h": 256,
+   "src": "attachment_6177452929294713454__08.png"
+  },
+  {
+   "index": 35,
+   "shape": "round",
+   "color": "pink",
+   "file": "resources/candy/round_35.png",
+   "w": 253,
+   "h": 256,
+   "src": "attachment_6177452929294713454__09.png"
+  },
+  {
+   "index": 36,
+   "shape": "round",
+   "color": "mint",
+   "file": "resources/candy/round_36.png",
+   "w": 256,
+   "h": 254,
+   "src": "attachment_6177452929294713454__10.png"
+  },
+  {
+   "index": 37,
+   "shape": "round",
+   "color": "pink",
+   "file": "resources/candy/round_37.png",
+   "w": 255,
+   "h": 256,
+   "src": "attachment_6177452929294713454__11.png"
+  },
+  {
+   "index": 38,
+   "shape": "round",
+   "color": "blue",
+   "file": "resources/candy/round_38.png",
+   "w": 256,
+   "h": 218,
+   "src": "attachment_6177452929294713454__12.png"
+  },
+  {
+   "index": 39,
+   "shape": "round",
+   "color": "yellow",
+   "file": "resources/candy/round_39.png",
+   "w": 256,
+   "h": 251,
+   "src": "attachment_6177452929294713454__13.png"
+  },
+  {
+   "index": 40,
+   "shape": "moon",
+   "color": "pink_green",
+   "file": "resources/candy/moon_40.png",
+   "w": 208,
+   "h": 224,
+   "src": "attachment_6177452929294713454__14.png"
+  },
+  {
+   "index": 41,
+   "shape": "moon",
+   "color": "pink_green",
+   "file": "resources/candy/moon_41.png",
+   "w": 219,
+   "h": 188,
+   "src": "attachment_6177452929294713454__15.png"
+  },
+  {
+   "index": 42,
+   "shape": "moon",
+   "color": "lilac",
+   "file": "resources/candy/moon_42.png",
+   "w": 204,
+   "h": 174,
+   "src": "attachment_6177452929294713454__16.png"
+  },
+  {
+   "index": 43,
+   "shape": "moon",
+   "color": "pink_green",
+   "file": "resources/candy/moon_43.png",
+   "w": 133,
+   "h": 223,
+   "src": "attachment_6177452929294713454__17.png"
+  },
+  {
+   "index": 44,
+   "shape": "moon",
+   "color": "pink_green",
+   "file": "resources/candy/moon_44.png",
+   "w": 189,
+   "h": 164,
+   "src": "attachment_6177452929294713454__18.png"
+  },
+  {
+   "index": 45,
+   "shape": "block",
+   "color": "gold",
+   "file": "resources/candy/block_45.png",
+   "w": 210,
+   "h": 256,
+   "src": "attachment_7367617697994377080__01.png"
+  },
+  {
+   "index": 46,
+   "shape": "block",
+   "color": "orange",
+   "file": "resources/candy/block_46.png",
+   "w": 196,
+   "h": 256,
+   "src": "attachment_7367617697994377080__02.png"
+  },
+  {
+   "index": 47,
+   "shape": "block",
+   "color": "pink",
+   "file": "resources/candy/block_47.png",
+   "w": 192,
+   "h": 256,
+   "src": "attachment_7367617697994377080__03.png"
+  },
+  {
+   "index": 48,
+   "shape": "block",
+   "color": "green",
+   "file": "resources/candy/block_48.png",
+   "w": 167,
+   "h": 256,
+   "src": "attachment_7367617697994377080__04.png"
+  },
+  {
+   "index": 49,
+   "shape": "block",
+   "color": "purple",
+   "file": "resources/candy/block_49.png",
+   "w": 194,
+   "h": 256,
+   "src": "attachment_7367617697994377080__05.png"
+  },
+  {
+   "index": 50,
+   "shape": "drop",
+   "color": "red",
+   "file": "resources/candy/drop_50.png",
+   "w": 186,
+   "h": 256,
+   "src": "attachment_7367617697994377080__06.png"
+  },
+  {
+   "index": 51,
+   "shape": "star",
+   "color": "pink",
+   "file": "resources/candy/star_51.png",
+   "w": 246,
+   "h": 256,
+   "src": "attachment_7367617697994377080__07.png"
+  },
+  {
+   "index": 52,
+   "shape": "heart",
+   "color": "pink",
+   "file": "resources/candy/heart_52.png",
+   "w": 256,
+   "h": 233,
+   "src": "attachment_7367617697994377080__08.png"
+  },
+  {
+   "index": 53,
+   "shape": "star",
+   "color": "mint",
+   "file": "resources/candy/star_53.png",
+   "w": 256,
+   "h": 195,
+   "src": "attachment_7367617697994377080__09.png"
+  },
+  {
+   "index": 54,
+   "shape": "star",
+   "color": "lilac",
+   "file": "resources/candy/star_54.png",
+   "w": 245,
+   "h": 256,
+   "src": "attachment_7367617697994377080__10.png"
+  },
+  {
+   "index": 55,
+   "shape": "star",
+   "color": "yellow",
+   "file": "resources/candy/star_55.png",
+   "w": 256,
+   "h": 254,
+   "src": "attachment_7367617697994377080__11.png"
+  },
+  {
+   "index": 56,
+   "shape": "bean",
+   "color": "gold",
+   "file": "resources/candy/bean_56.png",
+   "w": 256,
+   "h": 216,
+   "src": "attachment_7367617697994377080__12.png"
+  },
+  {
+   "index": 57,
+   "shape": "bean",
+   "color": "pink",
+   "file": "resources/candy/bean_57.png",
+   "w": 256,
+   "h": 201,
+   "src": "attachment_7367617697994377080__13.png"
+  },
+  {
+   "index": 58,
+   "shape": "bean",
+   "color": "green",
+   "file": "resources/candy/bean_58.png",
+   "w": 220,
+   "h": 256,
+   "src": "attachment_7367617697994377080__14.png"
+  },
+  {
+   "index": 59,
+   "shape": "bean",
+   "color": "orange",
+   "file": "resources/candy/bean_59.png",
+   "w": 217,
+   "h": 256,
+   "src": "attachment_7367617697994377080__15.png"
+  },
+  {
+   "index": 60,
+   "shape": "bean",
+   "color": "lilac",
+   "file": "resources/candy/bean_60.png",
+   "w": 247,
+   "h": 239,
+   "src": "attachment_7367617697994377080__16.png"
+  },
+  {
+   "index": 61,
+   "shape": "round",
+   "color": "deep_red",
+   "file": "resources/candy/round_61.png",
+   "w": 256,
+   "h": 203,
+   "src": "attachment_7367617697994377080__17.png"
+  },
+  {
+   "index": 62,
+   "shape": "wrapper",
+   "color": "pink",
+   "file": "resources/candy/wrapper_62.png",
+   "w": 256,
+   "h": 220,
+   "src": "attachment_7465417852119808767__01.png"
+  },
+  {
+   "index": 63,
+   "shape": "wrapper",
+   "color": "orange",
+   "file": "resources/candy/wrapper_63.png",
+   "w": 256,
+   "h": 180,
+   "src": "attachment_7465417852119808767__02.png"
+  },
+  {
+   "index": 64,
+   "shape": "wrapper",
+   "color": "mint",
+   "file": "resources/candy/wrapper_64.png",
+   "w": 256,
+   "h": 125,
+   "src": "attachment_7465417852119808767__03.png"
+  },
+  {
+   "index": 65,
+   "shape": "wrapper",
+   "color": "blue",
+   "file": "resources/candy/wrapper_65.png",
+   "w": 256,
+   "h": 183,
+   "src": "attachment_7465417852119808767__04.png"
+  },
+  {
+   "index": 66,
+   "shape": "wrapper",
+   "color": "yellow",
+   "file": "resources/candy/wrapper_66.png",
+   "w": 256,
+   "h": 138,
+   "src": "attachment_7465417852119808767__05.png"
+  },
+  {
+   "index": 67,
+   "shape": "block",
+   "color": "mint",
+   "file": "resources/candy/block_67.png",
+   "w": 256,
+   "h": 166,
+   "src": "attachment_7465417852119808767__06.png"
+  },
+  {
+   "index": 68,
+   "shape": "wrapper",
+   "color": "pink",
+   "file": "resources/candy/wrapper_68.png",
+   "w": 256,
+   "h": 216,
+   "src": "attachment_7465417852119808767__07.png"
+  },
+  {
+   "index": 69,
+   "shape": "wrapper",
+   "color": "yellow",
+   "file": "resources/candy/wrapper_69.png",
+   "w": 256,
+   "h": 154,
+   "src": "attachment_7465417852119808767__08.png"
+  },
+  {
+   "index": 70,
+   "shape": "wrapper",
+   "color": "pink",
+   "file": "resources/candy/wrapper_70.png",
+   "w": 256,
+   "h": 182,
+   "src": "attachment_7465417852119808767__09.png"
+  },
+  {
+   "index": 71,
+   "shape": "lollipop",
+   "color": "rainbow",
+   "file": "resources/candy/lollipop_71.png",
+   "w": 256,
+   "h": 244,
+   "src": "attachment_7526443602616686214__01.png"
+  },
+  {
+   "index": 72,
+   "shape": "round",
+   "color": "yellow",
+   "file": "resources/candy/round_72.png",
+   "w": 256,
+   "h": 256,
+   "src": "attachment_7526443602616686214__02.png"
+  },
+  {
+   "index": 73,
+   "shape": "round",
+   "color": "red",
+   "file": "resources/candy/round_73.png",
+   "w": 253,
+   "h": 256,
+   "src": "attachment_7526443602616686214__03.png"
+  },
+  {
+   "index": 74,
+   "shape": "round",
+   "color": "mint",
+   "file": "resources/candy/round_74.png",
+   "w": 250,
+   "h": 256,
+   "src": "attachment_7526443602616686214__04.png"
+  },
+  {
+   "index": 75,
+   "shape": "bean",
+   "color": "mint",
+   "file": "resources/candy/bean_75.png",
+   "w": 256,
+   "h": 187,
+   "src": "attachment_7526443602616686214__05.png"
+  },
+  {
+   "index": 76,
+   "shape": "bean",
+   "color": "lilac",
+   "file": "resources/candy/bean_76.png",
+   "w": 256,
+   "h": 200,
+   "src": "attachment_7526443602616686214__06.png"
+  },
+  {
+   "index": 77,
+   "shape": "flower",
+   "color": "yellow",
+   "file": "resources/candy/flower_77.png",
+   "w": 256,
+   "h": 208,
+   "src": "attachment_7526443602616686214__07.png"
+  }
+ ]
+}

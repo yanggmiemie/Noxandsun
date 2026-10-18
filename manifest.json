@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.nox.candy_jar",
+  "version": "0.1.0",
+  "api_version": "1.0.0",
+  "author": [
+    "Nox",
+    "yanggmiemie"
+  ],
+  "main": "dist/main.js",
+  "display_name": {
+    "zh": "🍬 糖果罐",
+    "en": "Candy Jar"
+  },
+  "description": {
+    "zh": "一只装满悄悄话的糖罐：AI 自由挑选糖果的形状与颜色（11 种形状 × 15 种颜色，共 77 颗水彩糖），把想说的话写在糖纸上，一颗一颗投进玻璃罐；人类点开任意一颗糖，看到的都是一张摊开的便签纸。6 种真实水彩罐型可选，摇一摇可以把罐子里的糖重新晃匀。自适应侧边框（宽屏分栏、窄屏覆盖层）。【文件行为说明】所有罐子与糖果只保存在插件私有目录 candy_jar.json；默认取出糖果时保留它的便签内容（要销毁需显式 purge）；无网络请求，无 Shell 调用，不读取其它应用的数据。",
+    "en": "A jar full of whispers: the AI freely picks each candy's shape and colour (11 shapes x 15 colours, 77 watercolour candies), writes what it wants to say on the wrapper, and drops them into the glass jar one by one. Tap any candy and it opens into a note. Six real watercolour jar styles; give the jar a shake to settle them again. [File behavior] Jars and candies live only in the plugin private directory (candy_jar.json); taking a candy out keeps its note unless purge is explicit; no network requests, no shell calls, no access to other apps' data."
+  },
+  "subpackages": [
+    {
+      "id": "candy_jar",
+      "entry": "dist/packages/candy_jar.js",
+      "enabled_by_default": true,
+      "display_name": {
+        "zh": "糖果罐",
+        "en": "Candy Jar"
+      },
+      "description": {
+        "zh": "糖果罐工具：AI 挑糖果（形状+颜色）、写糖纸、投进罐子；也能列出罐子、读糖、改糖、把糖拿出来、摇一摇、看概览、查可用花色。",
+        "en": "Candy jar tools: pick a candy (shape + colour), write the wrapper, drop it in; also list jars, read / update / take out candies, shake, stats, and browse available styles."
+      }
+    }
+  ],
+  "logo": "j_glass",
+  "resources": [
+    {
+      "key": "paper",
+      "path": "resources/paper/paper.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "j_tall",
+      "path": "resources/jar/tall.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "j_milk_bottle",
+      "path": "resources/jar/milk_bottle.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "j_glass",
+      "path": "resources/jar/glass.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "j_mason",
+      "path": "resources/jar/mason.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "j_belly",
+      "path": "resources/jar/belly.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "j_flower_jar",
+      "path": "resources/jar/flower_jar.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "extra_bunch",
+      "path": "resources/extra/lollipop_bunch.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c1",
+      "path": "resources/candy/lollipop_01.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c2",
+      "path": "resources/candy/wrapper_02.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c3",
+      "path": "resources/candy/block_03.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c4",
+      "path": "resources/candy/bean_04.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c5",
+      "path": "resources/candy/block_05.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c6",
+      "path": "resources/candy/block_06.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c7",
+      "path": "resources/candy/block_07.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c8",
+      "path": "resources/candy/round_08.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c9",
+      "path": "resources/candy/round_09.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c10",
+      "path": "resources/candy/block_10.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c11",
+      "path": "resources/candy/heart_11.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c12",
+      "path": "resources/candy/cane_12.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c13",
+      "path": "resources/candy/flower_13.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c14",
+      "path": "resources/candy/star_14.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c15",
+      "path": "resources/candy/round_15.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c16",
+      "path": "resources/candy/heart_16.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c17",
+      "path": "resources/candy/wrapper_17.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c18",
+      "path": "resources/candy/round_18.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c19",
+      "path": "resources/candy/drop_19.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c20",
+      "path": "resources/candy/flower_20.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c21",
+      "path": "resources/candy/flower_21.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c22",
+      "path": "resources/candy/wrapper_22.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c23",
+      "path": "resources/candy/block_23.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c24",
+      "path": "resources/candy/drop_24.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c25",
+      "path": "resources/candy/round_25.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c26",
+      "path": "resources/candy/block_26.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c27",
+      "path": "resources/candy/block_27.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c28",
+      "path": "resources/candy/block_28.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c29",
+      "path": "resources/candy/block_29.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c30",
+      "path": "resources/candy/bean_30.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c31",
+      "path": "resources/candy/bean_31.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c32",
+      "path": "resources/candy/bean_32.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c33",
+      "path": "resources/candy/cane_33.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c34",
+      "path": "resources/candy/lollipop_34.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c35",
+      "path": "resources/candy/round_35.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c36",
+      "path": "resources/candy/round_36.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c37",
+      "path": "resources/candy/round_37.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c38",
+      "path": "resources/candy/round_38.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c39",
+      "path": "resources/candy/round_39.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c40",
+      "path": "resources/candy/moon_40.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c41",
+      "path": "resources/candy/moon_41.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c42",
+      "path": "resources/candy/moon_42.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c43",
+      "path": "resources/candy/moon_43.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c44",
+      "path": "resources/candy/moon_44.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c45",
+      "path": "resources/candy/block_45.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c46",
+      "path": "resources/candy/block_46.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c47",
+      "path": "resources/candy/block_47.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c48",
+      "path": "resources/candy/block_48.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c49",
+      "path": "resources/candy/block_49.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c50",
+      "path": "resources/candy/drop_50.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c51",
+      "path": "resources/candy/star_51.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c52",
+      "path": "resources/candy/heart_52.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c53",
+      "path": "resources/candy/star_53.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c54",
+      "path": "resources/candy/star_54.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c55",
+      "path": "resources/candy/star_55.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c56",
+      "path": "resources/candy/bean_56.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c57",
+      "path": "resources/candy/bean_57.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c58",
+      "path": "resources/candy/bean_58.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c59",
+      "path": "resources/candy/bean_59.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c60",
+      "path": "resources/candy/bean_60.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c61",
+      "path": "resources/candy/round_61.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c62",
+      "path": "resources/candy/wrapper_62.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c63",
+      "path": "resources/candy/wrapper_63.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c64",
+      "path": "resources/candy/wrapper_64.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c65",
+      "path": "resources/candy/wrapper_65.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c66",
+      "path": "resources/candy/wrapper_66.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c67",
+      "path": "resources/candy/block_67.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c68",
+      "path": "resources/candy/wrapper_68.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c69",
+      "path": "resources/candy/wrapper_69.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c70",
+      "path": "resources/candy/wrapper_70.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c71",
+      "path": "resources/candy/lollipop_71.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c72",
+      "path": "resources/candy/round_72.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c73",
+      "path": "resources/candy/round_73.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c74",
+      "path": "resources/candy/round_74.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c75",
+      "path": "resources/candy/bean_75.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c76",
+      "path": "resources/candy/bean_76.png",
+      "mime": "image/png"
+    },
+    {
+      "key": "c77",
+      "path": "resources/candy/flower_77.png",
+      "mime": "image/png"
+    }
+  ]
+}
